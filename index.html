@@ -1,142 +1,73 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Embedded Coding Club</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin:0; padding:0;
-    background:#f4f4f4;
-    color:#333;
-  }
-  header {
-    background:#222;
-    color:#fff;
-    padding:1rem 2rem;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-  }
-  header h1 {
-    margin:0;
-  }
-  nav a {
-    color:#fff;
-    margin-left:1rem;
-    text-decoration:none;
-  }
-  nav a:hover {text-decoration:underline;}
-  .hero {
-    background:#0077cc;
-    color:#fff;
-    padding:4rem 2rem;
-    text-align:center;
-  }
-  .hero h2 {margin-top:0;}
-  .hero a {
-    display:inline-block;
-    margin-top:1rem;
-    padding:0.75rem 1.5rem;
-    background:#fff;
-    color:#0077cc;
-    border-radius:4px;
-    text-decoration:none;
-    font-weight:bold;
-  }
-  .hero a:hover {background:#eee;}
-  main {
-    max-width:1000px;
-    margin:2rem auto;
-    padding:0 1rem;
-  }
-  .projects {
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:1.5rem;
-  }
-  .project-card {
-    background:#fff;
-    border-radius:8px;
-    box-shadow:0 4px 12px rgba(0,0,0,0.1);
-    padding:1rem;
-  }
-  .project-card h3 {margin-top:0;}
-  .project-card a {
-    color:#0077cc;
-    text-decoration:none;
-  }
-  .project-card a:hover {text-decoration:underline;}
-  footer {
-    text-align:center;
-    padding:2rem;
-    background:#222;
-    color:#fff;
-    margin-top:3rem;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded Coding Club</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Embedded Coding Club</h1>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+  <header>
+    <h1>Embedded Coding Club</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<section class="hero">
-  <h2>Welcome to the Embedded Coding Club</h2>
-  <p>Learn microcontrollers, firmware, and hands-on electronics projects.</p>
-  <a href="#totem">Explore TOTEM</a>
-</section>
-
-<main>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-
-      <!-- TOTEM Project Card -->
-      <div class="project-card" id="totem">
-        <h3>TOTEM Split Keyboard (Bluetooth)</h3>
-        <p>A tiny, ergonomic split keyboard built with Seeed XIAO BLE modules running ZMK firmware. Perfect first project for learning embedded systems!</p>
-        <a href="https://github.com/GEIGEIGEIST/zmk-config-totem" target="_blank">View on GitHub</a>
-      </div>
-
-      <!-- Placeholder for future projects -->
-      <div class="project-card">
-        <h3>Future Project 1</h3>
-        <p>Coming soon…</p>
-      </div>
-      <div class="project-card">
-        <h3>Future Project 2</h3>
-        <p>Coming soon…</p>
-      </div>
-
-    </div>
+  <section class="hero">
+    <h2>Welcome to the Embedded Coding Club</h2>
+    <p>Learn microcontrollers, firmware, and hands-on electronics projects.</p>
+    <a href="#totem" class="btn">Explore TOTEM</a>
   </section>
 
-  <section id="about">
-    <h2>About the Club</h2>
-    <p>We’re a community of students and hobbyists exploring embedded systems. From microcontrollers to firmware and electronics, we share knowledge and hands-on projects.</p>
-  </section>
+  <main>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: info@embeddedclub.example</p>
-    <p>GitHub: <a href="https://github.com/embeddedclub" target="_blank">github.com/embeddedclub</a></p>
-  </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
 
-</main>
+        <div class="project-card" id="totem">
+          <h3>TOTEM Split Keyboard (Bluetooth)</h3>
+          <p>A tiny, ergonomic split keyboard built with Seeed XIAO BLE modules running ZMK firmware. Perfect first project for learning embedded systems!</p>
+          <a href="https://github.com/GEIGEIGEIST/zmk-config-totem" target="_blank">View on GitHub</a>
+        </div>
 
-<footer>
-  &copy; 2025 Embedded Coding Club. All rights reserved.
-</footer>
+        <div class="project-card">
+          <h3>Future Project 1</h3>
+          <p>Coming soon…</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Future Project 2</h3>
+          <p>Coming soon…</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About the Club</h2>
+      <p>We’re a community of students and hobbyists exploring embedded systems. From microcontrollers to firmware and electronics, we share knowledge and hands-on projects.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: info@embeddedclub.example</p>
+      <p>GitHub: <a href="https://github.com/embeddedclub" target="_blank">github.com/embeddedclub</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Embedded Coding Club. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
