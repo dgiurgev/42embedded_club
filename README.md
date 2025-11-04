@@ -5,48 +5,57 @@ Here we explore electronics, programming, sensors, and embedded systems. Our pro
 
 ---
 
-## Current Projects
+## ⚙️ Current Projects
 
-### TOTEM Keyboard
-Our first featured project is the **TOTEM keyboard**, a 38-key split keyboard designed for Seeed Studio XIAO microcontrollers.  
+### 🧠 TOTEM Keyboard
+A **38-key column-staggered split keyboard** designed for Seeed Studio XIAO microcontrollers.  
+It was created for the Seeed XIAO Keyboard Contest and demonstrates efficient PCB design, firmware integration, and ergonomic layout principles.
 
-You can find all the details in the dedicated project file:  
-[**TOTEM.md**](TOTEM/TOTEM.md)
-
----
-
-### Future Projects
-We will be adding more projects soon. Here are some placeholders:
-
-- **Project Name 1**  
-  Short description or teaser.  
-
-- **Project Name 2**  
-  Short description or teaser.  
-
-- **Project Name 3**  
-  Short description or teaser.  
+- [**Project File →**](TOTEM/TOTEM.md)  
+- [**TOTEM GitHub Page →**](https://github.com/GEIGEIGEIST/TOTEM)
 
 ---
 
-## How to Contribute
+### ⚡ offline-LightningATM-esp32
+An **offline Bitcoin Lightning Network ATM** powered by an ESP32.  
+This device performs Lightning transactions without requiring an internet connection — blending cryptography, embedded programming, and clever hardware design.
 
-If you want to contribute to the Embedded Club:
-
-1. Fork this repository.
-2. Add your project folder with a `README.md` describing your project.
-3. Open a pull request.
-
-Make sure to follow the structure of the TOTEM project for consistency.
+- [**Project File →**](offline-LightningATM-esp32/offline-LightningATM-esp32.md)  
+- [**LightningATM GitHub Repository →**](https://github.com/f321x/offline-LightningATM-esp32)
 
 ---
 
-## Tags
-#embedded #electronics #programming #sensors #projects
+## 🧩 In Progress
+
+We’re always tinkering with new ideas — some work, some don’t, and that’s part of the fun.  
+Projects change as we learn, experiment, and figure things out along the way.
+
+A few things floating around right now:
+- small sensor experiments  
+- tiny wireless gadgets  
+- custom controller ideas  
+
+Nothing too serious — just a bunch of students learning by building and breaking stuff together.
 
 ---
 
-## Contact / Links
+## 🤝 Join the Club
 
-- Club website / forum (if applicable)  
-- [TOTEM GitHub project](TOTEM/TOTEM.md)
+We’re a bunch of 42 students who enjoy building things that *do* stuff — keyboards, sensors, small robots, IoT devices, or whatever idea pops up next.  
+
+You don’t need any hardware experience to join — just curiosity and a willingness to learn.  
+If you want to tinker, learn, or hang out with others who like making things, join our Telegram group:
+
+👉 [**Join the Embedded Club on Telegram**](https://t.me/+e6uI-ywZXT42MzIy)
+
+---
+
+## 🔗 Links
+
+- 🌐 [**Embedded Club Website**](https://dgiurgev.github.io/42embedded_club)  
+- 💻 [**GitHub Repository**](https://github.com/dgiurgev/42embedded_club)
+
+---
+
+## 🏷️ Tags
+#embedded #electronics #programming #sensors #projects #iot #esp32 #hardware #opensource
